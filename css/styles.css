@@ -1,0 +1,259 @@
+body
+{
+font-style: "Montserrat-Black"
+}
+h1,h2,h3,h4,h5,h6
+{
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h3
+{
+  font-family: "Cardo", serif;
+    font-weight: 400;
+}
+
+.container-fluid
+{
+  padding: 3% 15%;
+}
+
+/* Top navigation bar */
+.navbar
+{
+background-color:#f9f6f7;
+
+ }
+.navbar-brand
+{
+  font-family: "Montserrat Black";
+  font-size: 2rem;
+   font-weight: bold;
+
+}
+ .navbar-collapse
+{
+  padding-left: 50rem;
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-style: "Montserrat-Light";
+
+}
+.nav-item
+{
+  color:#ff971d;
+
+}
+.nav-item:hover
+{
+   color:#ec0101;
+}
+
+/* Carousel section */
+
+#carousel
+{
+  text-align: center;
+  background-color:#f9f6f7;
+  color: #0000;
+}
+.carousel-item
+{
+  padding:3% 1%;
+}
+.carousel-image
+{
+  width: 80%;
+  margin: 10px;
+}
+
+/* Feature sectrion */
+.icon
+{
+  color: #ff971d;
+  margin-bottom: 1rem;
+}
+.icon:hover
+{
+  color:#ec0101;
+}
+
+
+#features
+{
+ padding: 7% 10%;
+ align-items: center;
+ background-color: #ffff;
+}
+.feature-box
+{
+  padding: 7% 10%;
+  align-items: center;
+  background-color: #ffff;
+  text-align: center;;
+  padding: 5%;
+
+ /* text-align: center;;
+ padding: 5%; */
+}
+
+/* portfolio section */
+.portfolio-heading
+{
+  text-align: center;
+  border: 5px double #697374;
+
+  padding: 5px 20px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.portfolio_img
+{
+  max-width: 100%;
+  height: 233px;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.image-caption1
+{
+  color: #fff;
+     font-size: 15px;
+    margin-bottom: 5px;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    opacity: 0;
+}
+
+/* contact section */
+#contact{
+  text-align: center;
+  /* width: 40%; */
+  margin:40px auto 60px;
+
+}
+.get-in-touch
+{
+  font-size:3rem;
+  text-align: center;
+  width: 40%;
+  margin:40px auto 60px;
+  margin-bottom: 5px;
+ color:#f3c623
+
+}
+.contact
+{
+  font-size:250%;
+}
+.contact:hover
+{
+  color: #ec0101;
+}
+
+.contact-title
+{
+  margin-top: 50px;
+  color: #f3c623;
+  text-transform: uppercase;
+  text-align: center;
+  /* transition: all 4s ease-in-out; */
+}
+
+.contact-title h1
+{
+  font-size: 32px;
+  line-height: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-title h2
+{
+  font-size: 16px;
+}
+
+form
+{
+ margin-top: 50px;
+ /* transition: all 4s ease-in; */
+ padding: 3% 10%;
+}
+
+.form-controls
+{
+  width: 600px;
+  /* background: transparent; */
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #ffff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input
+{
+  height: 30px;
+
+}
+
+form.submit
+{
+  background: #ff5722;
+  border-color: transparent;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+
+  /* margin-top: 20px; */
+}
+
+form.submit:hover
+{
+  background-color: #f44336;
+  cursor: pointer;
+}
+/* footer */
+.bottom-container
+{
+  background-color:#f3c623;
+  position: relative;
+  padding: 50px;
+  text-align: center;
+}
+.right-reserved
+{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.footer-link
+{
+  cursor: #f3c623;
+  margin:30px;
+}
+
+a
+{
+  color: #ff971d;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #EAF6F6;
+}
+
+/* about-us page */
